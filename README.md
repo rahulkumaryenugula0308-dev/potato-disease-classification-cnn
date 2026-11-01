@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 # potato-disease-classification-cnn
 Potato leaf disease classification using CNN, TensorFlow Serving, FastAPI, Docker and Gradio.
 =======
@@ -60,10 +60,12 @@ Open the application:
 http://127.0.0.1:8502
 
 ## Screenshots
-Add screenshots of:
-- Gradio application
-- Image upload and prediction results
-- Confusion matrix
+
+### Gradio Predictions
+![Potato Disease Predictions](screenshots/all_predictions.png)
+
+### Confusion Matrix
+![Confusion Matrix](confusion_matrix.png)
 
 ## Future Improvements
 - Test with more unseen potato leaf images.
@@ -72,4 +74,4 @@ Add screenshots of:
 
 ## Disclaimer
 Predictions are model outputs and should not be treated as confirmed agricultural diagnoses.
->>>>>>> cfc204d (Add potato disease classification CNN project)
+
